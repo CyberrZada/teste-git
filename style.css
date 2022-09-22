@@ -7,16 +7,20 @@
     text-decoration: none;
 }
 body{
-    font-size: 100%;
-    background: rgb(208,190,190);
-    background: linear-gradient(90deg, rgba(208,190,190,1) 11%, rgba(176,145,132,1) 34%, rgba(157,106,83,1) 64%, rgba(101,45,18,1) 89%);
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 }
+    
 .cabecalho{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px 0px;
+}
+.titulo-loja{
+    color: #FFF2E7;
+    font-family: 'Sarala' sans-serif;
+    
 }
     .cabecalho-imagem{
         height: 65px;
@@ -45,10 +49,30 @@ body{
         flex-direction: column;
         gap: 32px;
     }
-    .conteudo-principal-escrito-titulo {
+    .conteudo-principal-escrito-titulo{
         font-family: 'Righteous', cursive;
         font-weight: 400;
         font-size: 24px;
         color: #FFF2E7;
     }
+    .conteudo-principal-escrito-subtitulo{
+        font-family: 'Righteous', cursive;
+        font-weight: 400px;
+        font-size: 24px;
+        color: #ECD6C4;
+    }
+    .conteudo-principal-escrito-botao{
+        background-color: #ECD6C4;
+        width: 185px;
+        height: 60px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2F2325;
+    }
+    
+
     
