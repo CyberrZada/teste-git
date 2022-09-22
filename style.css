@@ -8,8 +8,8 @@
 }
 body{
     font-size: 100%;
-    background: rgb(68,44,39);
-    background: linear-gradient(90deg, rgba(68,44,39,1) 93%, rgba(255,255,255,1) 100%);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 .cabecalho{
     display: flex;
@@ -25,7 +25,7 @@ body{
     .cabecalho-menu{
         display: flex;
         gap: 32px;
-        font-family: 'Sarala' , sans-serif;
+        font-family: 'Righteous', cursive;
         color: #fff2e7;
         font-weight: 400;
         font-size: 18px;
@@ -42,5 +42,13 @@ body{
     }
     .conteudo-principal-escrito{
         display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .conteudo-principal-escrito-titulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
     }
     
