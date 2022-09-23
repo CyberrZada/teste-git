@@ -1,88 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-body{
-    background-color: #FAD961;
-    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 34%,
+    rgba(43, 144, 0, 1) 100%
+  );
+}
+.name{
+    color: white;
+    font-family: 'Righteous', cursive;
+}
 
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px 0px;
 }
-    
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 24px 0px;
+.titulo-loja {
+  color: white;
+  font-family: "Sarala" sans-serif;
 }
-.titulo-loja{
-    color: #FFF2E7;
-    font-family: 'Sarala' sans-serif;
-    
+.logo-store {
+  height: 150px;
 }
-.logo-store{
-    height: 150px;
-    
+.cabecalho-imagem {
+  height: 65px;
 }
-    .cabecalho-imagem{
-        height: 65px;
-       
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+  font-family: 'Righteous', cursive;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
 }
-    .cabecalho-menu{
-        display: flex;
-        gap: 32px;
-        font-family: 'Righteous', cursive;
-        color: #fff2e7;
-        font-weight: 400;
-        font-size: 18px;
-    }
-    .conteudo{
-      margin-bottom: 48px;  
-      border-top: 0.4px solid #fff2e7;
-    }
-    .conteudo-principal{
-        display: flex;  
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .conteudo-principal-escrito{
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-    }
-    .conteudo-principal-escrito-titulo{
-        font-family: 'Righteous', cursive;
-        font-weight: 400;
-        font-size: 24px;
-        color: #FFF2E7;
-    }
-    .conteudo-principal-escrito-subtitulo{
-        font-family: 'Righteous', cursive;
-        font-weight: 400px;
-        font-size: 24px;
-        color: #ECD6C4;
-    }
-    .conteudo-principal-escrito-botao{
-        background-color: #ECD6C4;
-        width: 185px;
-        height: 60px;
-        border: none;
-        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
-        font-family: 'Righteous', cursive;
-        font-weight: 400;
-        font-size: 24px;
-        color: #2F2325;
-    }
-    .rodape-content{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-    }
-
-    
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid white;
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.conteudo-principal-escrito-titulo {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Righteous", cursive;
+  font-weight: 400px;
+  font-size: 24px;
+  color: white;
+}
+.conteudo-principal-escrito-botao {
+  background-color: white;
+  width: 185px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+}
+.conteudo-principal-imagem{
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.rodape-content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
