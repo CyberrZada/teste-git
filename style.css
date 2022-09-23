@@ -7,28 +7,18 @@
   text-decoration: none;
 }
 body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 34%,
-    rgba(43, 144, 0, 1) 100%
-  );
+  background: #fffafa;
 }
-.name{
-    color: white;
-    font-family: 'Righteous', cursive;
+.name {
+  color: black;
+  font-family: "Righteous", cursive;
 }
-
 .cabecalho {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 24px 0px;
-}
-.titulo-loja {
-  color: white;
-  font-family: "Sarala" sans-serif;
 }
 .logo-store {
   height: 150px;
@@ -39,14 +29,17 @@ body {
 .cabecalho-menu {
   display: flex;
   gap: 32px;
-  font-family: 'Righteous', cursive;
-  color: white;
+  font-family: "Righteous", cursive;
+  color: black;
   font-weight: 400;
   font-size: 18px;
 }
+.cabecalho-item {
+  color: black;
+}
 .conteudo {
   margin-bottom: 48px;
-  border-top: 0.4px solid white;
+  border-top: 0.4px solid black;
 }
 .conteudo-principal {
   display: flex;
@@ -63,16 +56,16 @@ body {
   font-family: "Righteous", cursive;
   font-weight: 400;
   font-size: 24px;
-  color: white;
+  color: black;
 }
 .conteudo-principal-escrito-subtitulo {
   font-family: "Righteous", cursive;
   font-weight: 400px;
   font-size: 24px;
-  color: white;
+  color: black;
 }
 .conteudo-principal-escrito-botao {
-  background-color: white;
+  background-color: black;
   width: 185px;
   height: 60px;
   border: none;
@@ -81,14 +74,49 @@ body {
   font-family: "Righteous", cursive;
   font-weight: 400;
   font-size: 24px;
-  color: black;
+  color: white;
 }
-.conteudo-principal-imagem{
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+.conteudo-principal-escrito-botao:hover {
+  background-color: grey;
+}
+.conteudo-principal-imagem {
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  height: 250px;
 }
 .rodape-content {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 200px;
+}
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid black;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo {
+  font-family: "Righteous", cursive;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+}
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid black;
+}
+.logo-rodape {
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
